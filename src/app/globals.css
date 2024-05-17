@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+
+ background-color: white;
+ margin:0px;
+}
+
+@layer utilities {
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .mSelect{
+    @apply
+    bg-gray-50
+    border border-gray-300
+    text-gray-900
+    font-bold
+    text-sm rounded-lg
+    block
+    w-64
+    m-2
+    p-2
+     
+  }
+}
