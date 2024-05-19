@@ -40,7 +40,6 @@ export const POST = async (req: NextRequest, res: NextResponse) => {
 
   }
 
-  
   // Get the country id from the countries table
   const { data: country, error: countryError } = await supabase
     .from('countries')

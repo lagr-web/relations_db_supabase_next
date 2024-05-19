@@ -24,6 +24,7 @@ const page = () => {
     const [country, setCountry] = useState<string>("");
     const [allData, setAllData] = useState<Country[] | null>(null);
     const [dataById, getDataById] = useState<any>(null);
+    
     const [showModal, setShowModal] = useState<boolean>(false);//false from start
     const [showCityModal, setShowCityModal] = useState<boolean>(false);//false from start
     const [showImageModal, setShowImageModal] = useState<boolean>(true);//false from start
